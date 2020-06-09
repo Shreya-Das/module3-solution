@@ -1,0 +1,79 @@
+/* Base Styles*/
+body{
+  font-size: 16px;
+  color: white;
+  background-color: #20B2AA;
+  font-family: oxygen;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  min-height: 8vh;
+  background-color: #BC8F8F;
+}
+h1{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.row > div{
+ border: 2px solid black;
+ margin: 15px;
+ background-color: #2F4F4F;
+ font-family: sans-serif;
+}
+section{
+  font-family: 'Balsamiq Sans', cursive;
+}
+h2{
+ text-align: center;
+ font-family: sans-serif;
+ text-decoration: underline;
+}
+#top{
+  color: white;
+}
+/* large devices options */
+@media (min-width: 1200px) {
+  img{
+    width: 150px;
+    height: 150px;
+    margin: 5px 10px 5px 0;
+  }
+ .head{
+    font-size: 30px;
+  }
+}
+
+/* medium devices options*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  img{
+    width: 100px;
+    height: 100px;
+    margin: 5px 10px 5px 0;
+  }
+  .head{
+    font-size: 25px;
+  }
+    }
+    /* small devices options*/
+@media (min-width: 768px) and (max-width: 991px) {
+  img{
+    width: 80px;
+    height: 80px;
+    margin: 5px 10px 5px 0;
+  }
+  .head{
+    font-size: 20px;
+  }
+    }
+    /* extra small devices options*/
+@media  (max-width: 768px) {
+  img{
+    display: none;
+  }
+  .head{
+    display: none;
+  }
+    }
